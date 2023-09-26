@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Home" },
+  { "id": 2, "name": "Explore" },
+  { "id": 3, "name": "Products" },
+  { "id": 4, "name": "Activity" },
+  { "id": 5, "name": "Elements" }
+]

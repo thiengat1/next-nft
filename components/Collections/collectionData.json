@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Bored Ape Yacht Club",
+    "volume": {
+      "total": "230.38 ETH",
+      "change": "+50.20%"
+    },
+    "floorPrice": {
+      "total": "230.38 ETH",
+      "change": "+50.20%"
+    },
+    "items": 138
+  },
+  {
+    "id": 2,
+    "name": "Mutant Ape Yacht Club",
+    "volume": {
+      "total": "138.38 ETH",
+      "change": "+28.20%"
+    },
+    "floorPrice": {
+      "total": "76.38 ETH",
+      "change": "+70.10%"
+    },
+    "items": 122
+  },
+  {
+    "id": 3,
+    "name": "Otherdeed for Otherside",
+    "volume": {
+      "total": "80.18 ETH",
+      "change": "+50.20%"
+    },
+    "floorPrice": {
+      "total": "91.38 ETH",
+      "change": "-32.20%"
+    },
+    "items": 192
+  },
+  {
+    "id": 4,
+    "name": "Pudgy Penguins",
+    "volume": {
+      "total": "291.38 ETH",
+      "change": "-49.20%"
+    },
+    "floorPrice": {
+      "total": "61.38 ETH",
+      "change": "+60.20%"
+    },
+    "items": 22000
+  },
+  {
+    "id": 5,
+    "name": "Quirkies Originals",
+    "volume": {
+      "total": "81.38 ETH",
+      "change": "-15.20%"
+    },
+    "floorPrice": {
+      "total": "23.12 ETH",
+      "change": "+50.20%"
+    },
+    "items": 2321
+  },
+  {
+    "id": 6,
+    "name": "Doodle",
+    "volume": {
+      "total": "340.21 ETH",
+      "change": "+50.20%"
+    },
+    "floorPrice": {
+      "total": "12.38 ETH",
+      "change": "-21.10%"
+    },
+    "items": 2721
+  },
+  {
+    "id": 7,
+    "name": "Quirkies Originals",
+    "volume": {
+      "total": "263.82 ETH",
+      "change": "+42.20%"
+    },
+    "floorPrice": {
+      "total": "45.35 ETH",
+      "change": "-13.13%"
+    },
+    "items": 712
+  }
+]
