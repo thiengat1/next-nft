@@ -19,7 +19,7 @@ export default function CollectionItem({ collection }: ICollectionItemProps) {
         />
         <div className='flex justify-between flex-1 items-center'>
           <div>{name}</div>
-          <div className=' mr-[119px]'>
+          <div className=' mr-[119px] ml-4'>
             <img
               src='/assets/images/collection-icon.png'
               width={18}

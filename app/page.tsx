@@ -3,6 +3,7 @@ import Header from '@/components/Header/page';
 import Banner from '@/components/Banner/page';
 import Story from '@/components/Story/page';
 import Collections from '@/components/Collections/page';
+import LiveAcution from '@/components/LiveAcution/page';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <Story />
       <Collections />
+      <LiveAcution />
     </main>
   );
 }
