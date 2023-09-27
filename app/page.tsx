@@ -4,6 +4,9 @@ import Banner from '@/components/Banner/page';
 import Story from '@/components/Story/page';
 import Collections from '@/components/Collections/page';
 import LiveAcution from '@/components/LiveAcution/page';
+import OurCreater from '@/components/OurCreater/page';
+import ChooseUs from '@/components/ChoodeUs/page';
+import Footer from '@/components/Footer/page';
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
       <Story />
       <Collections />
       <LiveAcution />
+      <OurCreater />
+      <ChooseUs />
+      <Footer />
     </main>
   );
 }

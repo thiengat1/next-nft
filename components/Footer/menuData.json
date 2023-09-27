@@ -1,0 +1,14 @@
+{
+  "menu1": {
+    "title": "Marketplace",
+    "children": ["Explore", "NFTs", "Collectibles", "Virtuallyreally"]
+  },
+  "menu2": {
+    "title": "Company",
+    "children": ["About Us", "Support", "Careers", "Contact us"]
+  },
+  "menu3": {
+    "title": "Resourses",
+    "children": ["Partners", "Blogs", "Help Center", "Live Action"]
+  }
+}

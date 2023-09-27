@@ -7,6 +7,12 @@ export interface ICollectionItemProps {
 
 export default function CollectionItem({ collection }: ICollectionItemProps) {
   const { id, name, volume, floorPrice, items } = collection;
+  function numberWithCommas(x: number | string) {
+    let y = x.toString();
+    var pattern = /(-?\d+)(\d{3})/;
+    while (pattern.test(y)) y = y.replace(pattern, '$1,$2');
+    return y;
+  }
   return (
     <div className='flex items-center text-[30px]'>
       <div className=' flex basis-1/2  items-center'>
@@ -51,7 +57,7 @@ export default function CollectionItem({ collection }: ICollectionItemProps) {
           {floorPrice.change}
         </div>
       </div>
-      <div className=' basis-1/6'>{items}</div>
+      <div className=' basis-1/6'>{numberWithCommas(items)}</div>
     </div>
   );
 }

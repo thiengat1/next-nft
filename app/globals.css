@@ -57,3 +57,17 @@ body {
   @apply w-32 bg-white h-1;
   clip-path: polygon(0 43%, 100% 90%, 100% 9%);
 }
+.creater-item {
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 75% 100%, 0% 100%);
+  background: white;
+}
+.creater-item::before {
+  content: '';
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #25293f;
+  padding: 2px;
+  clip-path: inherit;
+}

@@ -13,6 +13,8 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         main: 'url("/assets/images/bg-image-main.png")',
+        chooseUs: 'url("/assets/images/chooseUs-bg.png")',
+        footerBg: 'url("/assets/images/footer-bg.png")',
       },
       colors: {
         mainColor: '#191E35',
