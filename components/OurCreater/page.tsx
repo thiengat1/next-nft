@@ -14,11 +14,11 @@ export default function OurCreater(props: IOurCreaterProps) {
           title='Our Creater'
           content='The largest and unique Super rare NFT marketplaceFor crypto-collectibles'
         />
-        <div className='grid gap-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-[50px]'>
+        <div className='grid gap-4  grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[50px]'>
           {Array(9)
             .fill()
             .map((item) => {
-              return <CreaterItem key={item} />;
+              return <CreaterItem key={item + 1} />;
             })}
         </div>
         <div className=' text-center mt-[100px]'>
