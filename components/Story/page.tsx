@@ -10,7 +10,7 @@ export default function Story(props: IStoryProps) {
       <div className='flex mt-[150px]'>
         <img src='/assets/images/story.png' alt='story' />
         <div className='flex flex-col gap-6'>
-          <h1 className=' text-5xl'>NFT’s Story</h1>
+          <h1 className=' text-5xl'>NFTs Story</h1>
           <p className='text-[24px]'>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
