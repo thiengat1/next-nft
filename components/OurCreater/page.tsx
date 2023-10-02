@@ -16,7 +16,7 @@ export default function OurCreater(props: IOurCreaterProps) {
         />
         <div className='grid gap-4  grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[50px]'>
           {Array(9)
-            .fill()
+            .fill('')
             .map((item) => {
               return <CreaterItem key={item + 1} />;
             })}
